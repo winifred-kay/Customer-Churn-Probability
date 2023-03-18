@@ -37,6 +37,12 @@ Alternative: 75% of customers does not churn
 
 5. How many customers have tech Support?
 
+Before answering the questions or affriming the hypothesis, let's dig for information on the data such as how many colums do we have, are they any missing values , what are the datatypes etc.
+
+![image](https://user-images.githubusercontent.com/74463676/226120167-3c4c1b4f-0057-41a7-89dc-a5830d93b245.png)
+
+The above image shows the data loaded into jupyter notebook
+
 # Data Processing and Building Model
 
 # Model Evaluation
