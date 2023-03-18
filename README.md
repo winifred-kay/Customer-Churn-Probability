@@ -41,10 +41,41 @@ Before answering the questions or affriming the hypothesis, let's dig for inform
 
 ![image](https://user-images.githubusercontent.com/74463676/226120167-3c4c1b4f-0057-41a7-89dc-a5830d93b245.png)
 
-The above image shows the data loaded into jupyter notebook
+The above image shows the data loaded into jupyter notebook, then data is being expored and questions answered
+
+![image](https://user-images.githubusercontent.com/74463676/226120759-4a057a21-137e-4171-b36d-34b481102747.png)
+
+![image](https://user-images.githubusercontent.com/74463676/226120783-1ed28c77-4e29-4d86-b214-b6b3adf9e69c.png)
+
+![image](https://user-images.githubusercontent.com/74463676/226120811-3447ac8b-698c-4dd5-820e-b0f7e583d227.png)
+
+Find more insights found and qnswer to questions in the attached jupyter notebook file
+
 
 # Data Processing and Building Model
 
-# Model Evaluation
+Before building the model, the model is being processed. Preparing raw data to be acceptable for a machine learning model is known as data preprocessing. In order to build a machine learning model, it is the first and most important stage.
 
-#Feature selection and Model Tuning
+It is not always the case that we come across the clean and prepared data when developing a machine learning project. Also, any time you work with data, you must clean it up and format it.
+
+Real-world data typically includes noise, missing values, and may be in an undesirable format, making it impossible to build machine learning models on it directly. Data preprocessing is necessary to clean the data and prepare it for a machine learning model, which also improves the model's accuracy and effectiveness.
+
+To process the data, all coategorical data was encoded into numerical data and data is plit into train and test data. The data is then being trained by the model as seen below
+![image](https://user-images.githubusercontent.com/74463676/226123446-31c48a43-b821-47ca-b2a7-97f21e5c9840.png)
+
+![image](https://user-images.githubusercontent.com/74463676/226123574-f120c60a-d783-4732-9146-f55d48283f1f.png)
+
+![image](https://user-images.githubusercontent.com/74463676/226123601-faabf36b-d459-4f3d-b4ba-ca2cfaf8e598.png)
+
+
+# Model Evaluation
+Model evaluation is done on a trained machine learning model to find out how well the model is performing. For a binary classification model like our churn prediction model, we need to find the true negetives, false negetives, true positves and false positives. Also there other evaluation metrics such as the precision, recall, accuracy, confusion metrics and the F1 score.
+![image](https://user-images.githubusercontent.com/74463676/226125835-dfde9322-f811-41d4-a074-5871814053dd.png)
+
+![image](https://user-images.githubusercontent.com/74463676/226125859-ee72fe51-f984-4034-acb8-94955fcf258e.png)
+
+
+# Conclusion
+
+Using historical data to build classification model that predict customer churn is a helpful machine learning application especially in today's competitive business world where customer retention is key to the success of a company. Aside the machine learning model algorithm used in this project there are other classification model such as decision tree, K nearest neighbour, naive bayes, support vector machine etc.
+
